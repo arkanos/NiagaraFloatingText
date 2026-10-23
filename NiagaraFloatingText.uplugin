@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Niagara Floating Text",
+	"Description": "Gameplay cue notify for spawning Niagara floating numbers from GAS cues.",
+	"Category": "Gameplay",
+	"CreatedBy": "at0mic Games",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": false,
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "NiagaraFloatingText",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
