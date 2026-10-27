@@ -8,8 +8,8 @@ class UNiagaraComponent;
 
 namespace FloatingText
 {
-	FFloatingTextGlyphData EncodeGlyphs(const FString& Text);
+	NIAGARAFLOATINGTEXT_API FFloatingTextGlyphData EncodeGlyphs(const FString& Text);
 
-	void ApplyToNiagara(UNiagaraComponent* NiagaraComponent, const FFloatingTextStyle& Style, const FFloatingTextGlyphData& GlyphData);
-	void ApplyToNiagara(UNiagaraComponent* NiagaraComponent, const FFloatingTextStyle& Style);
+	NIAGARAFLOATINGTEXT_API void ApplyToNiagara(UNiagaraComponent* NiagaraComponent, const FFloatingTextStyle& Style, const FFloatingTextGlyphData& GlyphData);
+	NIAGARAFLOATINGTEXT_API void ApplyToNiagara(UNiagaraComponent* NiagaraComponent, const FFloatingTextStyle& Style);
 }
